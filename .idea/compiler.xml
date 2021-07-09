@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-ioc" />
         <module name="spring-bean" />
-        <module name="spring-applicationContext" />
+        <module name="spring-context" />
+        <module name="spring-aop" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-applicationContext" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>

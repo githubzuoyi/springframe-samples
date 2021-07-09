@@ -14,9 +14,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spring-ioc</module>
+        <module>spring-context</module>
         <module>spring-bean</module>
-        <module>spring-applicationContext</module>
+        <module>spring-aop</module>
+        <module>spring-boot</module>
     </modules>
 
 
