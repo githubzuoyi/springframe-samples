@@ -18,6 +18,8 @@
         <module>spring-bean</module>
         <module>spring-aop</module>
         <module>spring-boot</module>
+        <module>spring-mvc</module>
+        <module>spring-web-application</module>
     </modules>
 
 
